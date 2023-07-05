@@ -32,8 +32,8 @@ func NewClient() *Client {
 	return &Client{}
 }
 
-func (t *Client) Connect() {
-
+func (t *Client) Connect(clientOptions Options) error {
+	return nil
 }
 
 func (t *Client) Connected() bool {
